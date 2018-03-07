@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Rounded {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 5px;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;  
+  width:50%;
+  height:100px;
+  margin:10px;
+}
+
+.Clock-qty {
+  font-size: 1.5rem;
+  
+}
+.Clock-label {
+  color: gray;
+}
+
+.Flex-line {
+  flex: 1;
+  width:50%;
+  height:auto;
+  display:flex;
+}
+
+.Coin-line {
+  margin:10px;
+  font-size: 1.5rem;
+}
